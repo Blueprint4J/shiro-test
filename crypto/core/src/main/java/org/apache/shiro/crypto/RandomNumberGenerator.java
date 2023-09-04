@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 
 /**
@@ -46,6 +47,7 @@ import org.apache.shiro.lang.util.ByteSource;
  *
  * @since 1.1
  */
+@Group("Cryptography")
 public interface RandomNumberGenerator {
 
     /**

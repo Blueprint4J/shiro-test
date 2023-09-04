@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 /**
  * {@code CipherService} using the {@code Blowfish} cipher algorithm for all encryption, decryption, and key operations.
  * <p/>
@@ -38,6 +40,7 @@ package org.apache.shiro.crypto.cipher;
  *
  * @since 1.0
  */
+@Group("Cryptography")
 public class BlowfishCipherService extends DefaultBlockCipherService {
 
     private static final String ALGORITHM_NAME = "Blowfish";

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 
 import java.util.Map;
@@ -32,6 +33,7 @@ import static java.util.Objects.requireNonNull;
  *
  * @since 1.2
  */
+@Group("Cryptography")
 public class SimpleHashRequest implements HashRequest {
 
     private final ByteSource source; //cannot be null - this is the source to hash.

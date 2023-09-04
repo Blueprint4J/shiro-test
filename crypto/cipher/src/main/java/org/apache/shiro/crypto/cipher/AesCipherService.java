@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 import javax.crypto.spec.GCMParameterSpec;
 import java.security.spec.AlgorithmParameterSpec;
 
@@ -40,6 +42,7 @@ import java.security.spec.AlgorithmParameterSpec;
  *
  * @since 1.0
  */
+@Group("Cryptography")
 public class AesCipherService extends DefaultBlockCipherService {
 
     private static final String ALGORITHM_NAME = "AES";

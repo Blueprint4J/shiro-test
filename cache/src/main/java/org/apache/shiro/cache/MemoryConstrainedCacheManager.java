@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.cache;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.SoftHashMap;
 
 /**
@@ -33,6 +34,7 @@ import org.apache.shiro.lang.util.SoftHashMap;
  *
  * @since 1.0
  */
+@Group("Cache Manager")
 public class MemoryConstrainedCacheManager extends AbstractCacheManager {
 
     /**

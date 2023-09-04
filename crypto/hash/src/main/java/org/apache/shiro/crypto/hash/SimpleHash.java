@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.UnknownAlgorithmException;
 import org.apache.shiro.lang.codec.Base64;
 import org.apache.shiro.lang.codec.CodecException;
@@ -45,6 +46,7 @@ import static java.util.Objects.requireNonNull;
  *
  * @since 1.1
  */
+@Group("Cryptography")
 public class SimpleHash extends AbstractHash {
 
     private static final int DEFAULT_ITERATIONS = 1;

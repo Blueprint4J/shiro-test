@@ -19,6 +19,7 @@
 
 package org.apache.shiro.crypto.support.hashes.bcrypt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.hash.HashRequest;
 import org.apache.shiro.crypto.hash.HashSpi;
 import org.apache.shiro.lang.util.ByteSource;
@@ -38,6 +39,7 @@ import java.util.Set;
 /**
  * @since 2.0
  */
+@Group("Cryptography")
 public class BCryptProvider implements HashSpi {
 
     private static final Logger LOG = LoggerFactory.getLogger(BCryptProvider.class);

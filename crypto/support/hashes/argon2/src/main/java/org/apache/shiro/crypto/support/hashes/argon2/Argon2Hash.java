@@ -19,6 +19,7 @@
 
 package org.apache.shiro.crypto.support.hashes.argon2;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.hash.AbstractCryptHash;
 import org.apache.shiro.lang.codec.Base64;
 import org.apache.shiro.lang.util.ByteSource;
@@ -58,6 +59,7 @@ import static java.util.Objects.requireNonNull;
  *
  * @since 2.0
  */
+@Group("Cryptography")
 class Argon2Hash extends AbstractCryptHash {
     private static final long serialVersionUID = 2647354947284558921L;
 

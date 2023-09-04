@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 
 /**
@@ -33,6 +34,7 @@ import org.apache.shiro.lang.util.ByteSource;
  * @see Sha512Hash
  * @since 0.9
  */
+@Group("Cryptography")
 public interface Hash extends ByteSource {
 
     /**

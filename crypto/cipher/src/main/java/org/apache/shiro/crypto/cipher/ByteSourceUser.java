@@ -19,6 +19,8 @@
 
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 /**
  * {@link ByteSourceBroker#useBytes(ByteSourceUser)} method requires ByteSourceUser argument,
  * and developers should implement how we use the byte arrays in our code-base.
@@ -26,6 +28,7 @@ package org.apache.shiro.crypto.cipher;
  * The byte array "bytes" could be a decrypted password in plaintext format, or other
  * sensitive information that needs to be erased at end of use.
  */
+@Group("Cryptography")
 public interface ByteSourceUser {
     void use(byte[] bytes);
 }

@@ -19,6 +19,7 @@
 
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.Destroyable;
 
@@ -30,6 +31,7 @@ import org.apache.shiro.lang.util.ByteUtils;
  * A simple implementation that maintains cipher service, ciphertext and key for decrypting it later.
  * {@link #useBytes(ByteSourceUser)} guarantees the sensitive data in byte array will be erased at end of use.
  */
+@Group("Cryptography")
 public class SimpleByteSourceBroker implements ByteSourceBroker, Destroyable {
     private JcaCipherService cipherService;
     private byte[] ciphertext;

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.CryptoException;
 import org.apache.shiro.lang.util.ByteSource;
 
@@ -85,6 +86,7 @@ import java.io.OutputStream;
  * @see AesCipherService
  * @since 1.0
  */
+@Group("Cryptography")
 public interface CipherService {
 
     /**

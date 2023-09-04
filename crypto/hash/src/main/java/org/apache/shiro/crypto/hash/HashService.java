@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
+
 /**
  * A {@code HashService} hashes input sources utilizing a particular hashing strategy.
  * <p/>
@@ -50,6 +52,7 @@ package org.apache.shiro.crypto.hash;
  *
  * @since 1.2
  */
+@Group("Cryptography")
 public interface HashService {
 
     /**

@@ -19,6 +19,8 @@
 
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 /**
  * ByteSourceBroker holds an encrypted value to decrypt it on demand.
  * <br/>
@@ -29,6 +31,7 @@ package org.apache.shiro.crypto.cipher;
  * For exceptional cases we allow developers to use the other method,
  * {@link #getClonedBytes()}, but it's not advised.
  */
+@Group("Cryptography")
 public interface ByteSourceBroker {
     /**
      * This method accepts an implementation of ByteSourceUser functional interface.

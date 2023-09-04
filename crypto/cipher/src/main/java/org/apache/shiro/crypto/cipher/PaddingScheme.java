@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 /**
  * A {@code CipherPaddingScheme} represents well-known
  * <a href="http://en.wikipedia.org/wiki/Padding_(cryptography)">padding schemes</a> supported by JPA providers in a
@@ -34,6 +36,7 @@ package org.apache.shiro.crypto.cipher;
  * @see <a href="http://en.wikipedia.org/wiki/Padding_(cryptography)">Wikipedia: Cryptographic Padding</a>
  * @since 1.0
  */
+@Group("Cryptography")
 public enum PaddingScheme {
 
     /**

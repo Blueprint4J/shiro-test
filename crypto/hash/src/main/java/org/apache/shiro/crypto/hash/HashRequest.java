@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.SimpleByteSource;
 
@@ -35,6 +36,7 @@ import static java.util.Objects.requireNonNull;
  * @see HashRequest.Builder
  * @since 1.2
  */
+@Group("Cryptography")
 public interface HashRequest {
 
     /**

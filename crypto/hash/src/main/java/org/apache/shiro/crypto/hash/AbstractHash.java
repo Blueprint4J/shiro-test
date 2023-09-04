@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.crypto.UnknownAlgorithmException;
 import org.apache.shiro.lang.codec.Base64;
 import org.apache.shiro.lang.codec.CodecException;
@@ -44,6 +45,7 @@ import java.util.Arrays;
  * @deprecated in Shiro 1.1 in favor of using the concrete {@link SimpleHash} implementation directly.
  */
 @Deprecated
+@Ignore
 public abstract class AbstractHash extends CodecSupport implements Hash, Serializable {
 
     private static final long serialVersionUID = -4723044219611288405L;

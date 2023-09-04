@@ -18,11 +18,14 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
+
 /**
  * A {@code HashService} that allows configuration of its strategy via JavaBeans-compatible setter methods.
  *
  * @since 1.2
  */
+@Group("Cryptography")
 public interface ConfigurableHashService extends HashService {
 
     /**

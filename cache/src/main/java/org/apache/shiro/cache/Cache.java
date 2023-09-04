@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.cache;
 
+import honours.research.annotations.Group;
+
 import java.util.Collection;
 import java.util.Set;
 
@@ -31,6 +33,7 @@ import java.util.Set;
  *
  * @since 0.2
  */
+@Group("Cache Manager")
 public interface Cache<K, V> {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 
 import java.security.SecureRandom;
@@ -32,6 +33,7 @@ import java.security.SecureRandom;
  *
  * @since 1.1
  */
+@Group("Cryptography")
 public class SecureRandomNumberGenerator implements RandomNumberGenerator {
 
     protected static final int DEFAULT_NEXT_BYTES_SIZE = 16; //16 bytes == 128 bits (a common number in crypto)

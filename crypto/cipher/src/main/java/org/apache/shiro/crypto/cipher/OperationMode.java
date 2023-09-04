@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 /**
  * A cipher <a href="http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation">mode of operation</a>
  * directs a cipher algorithm how to convert data during the encryption or decryption process.  This enum represents
@@ -38,6 +40,7 @@ package org.apache.shiro.crypto.cipher;
  * @see <a href="http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation">Block Cipher Modes of Operation<a/>
  * @since 1.0
  */
+@Group("Cryptography")
 public enum OperationMode {
 
     /**

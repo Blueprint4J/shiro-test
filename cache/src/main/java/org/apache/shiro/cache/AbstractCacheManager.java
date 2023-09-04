@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.cache;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.Destroyable;
 import org.apache.shiro.lang.util.LifecycleUtils;
 import org.apache.shiro.lang.util.StringUtils;
@@ -33,6 +34,7 @@ import java.util.concurrent.ConcurrentMap;
  *
  * @since 1.0
  */
+@Group("Cache Manager")
 public abstract class AbstractCacheManager implements CacheManager, Destroyable {
 
     /**

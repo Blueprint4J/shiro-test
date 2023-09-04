@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
+
 import javax.crypto.KeyGenerator;
 import java.security.Key;
 import java.security.NoSuchAlgorithmException;
@@ -27,6 +29,7 @@ import java.security.NoSuchAlgorithmException;
  *
  * @since 1.0
  */
+@Group("Cryptography")
 public abstract class AbstractSymmetricCipherService extends JcaCipherService {
 
     protected AbstractSymmetricCipherService(String algorithmName) {

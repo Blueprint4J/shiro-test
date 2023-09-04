@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.ShiroException;
 
 /**
@@ -25,6 +26,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.0
  */
+@Group("Cryptography")
 public class CryptoException extends ShiroException {
 
     public CryptoException(String message) {

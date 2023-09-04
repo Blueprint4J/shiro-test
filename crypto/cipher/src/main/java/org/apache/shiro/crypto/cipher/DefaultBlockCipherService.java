@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.StringUtils;
 
 /**
@@ -130,6 +131,7 @@ import org.apache.shiro.lang.util.StringUtils;
  * @see <a href="http://en.wikipedia.org/wiki/Block_cipher_modes_of_operation">Wikipedia: Block Cipher Modes of Operation</a>
  * @since 1.0
  */
+@Group("Cryptography")
 public class DefaultBlockCipherService extends AbstractSymmetricCipherService {
 
     private static final int DEFAULT_BLOCK_SIZE = 0;

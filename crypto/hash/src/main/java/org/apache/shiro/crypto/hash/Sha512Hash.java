@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.codec.Base64;
 import org.apache.shiro.lang.codec.Hex;
 
@@ -32,6 +33,7 @@ import org.apache.shiro.lang.codec.Hex;
  *
  * @since 0.9
  */
+@Group("Cryptography")
 public class Sha512Hash extends SimpleHash {
 
     //TODO - complete JavaDoc

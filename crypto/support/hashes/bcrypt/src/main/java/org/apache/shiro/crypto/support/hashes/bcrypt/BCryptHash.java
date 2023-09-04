@@ -19,6 +19,7 @@
 
 package org.apache.shiro.crypto.support.hashes.bcrypt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.hash.AbstractCryptHash;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.SimpleByteSource;
@@ -39,6 +40,7 @@ import static java.util.Collections.unmodifiableSet;
 /**
  * @since 2.0
  */
+@Group("Cryptography")
 class BCryptHash extends AbstractCryptHash {
 
     private static final long serialVersionUID = 6957869292324606101L;

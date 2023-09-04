@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.cache;
 
+import honours.research.annotations.Group;
+
 /**
  * Interface implemented by components that utilize a CacheManager and wish that CacheManager to be supplied if
  * one is available.
@@ -27,6 +29,7 @@ package org.apache.shiro.cache;
  *
  * @since 0.9
  */
+@Group("Cache Manager")
 public interface CacheManagerAware {
 
     /**

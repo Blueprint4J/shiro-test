@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
+
 import java.security.SecureRandom;
 import java.util.NoSuchElementException;
 import java.util.Optional;
@@ -41,6 +43,7 @@ import java.util.Random;
  *
  * @since 1.2
  */
+@Group("Cryptography")
 public class DefaultHashService implements ConfigurableHashService {
 
     private final Random random;

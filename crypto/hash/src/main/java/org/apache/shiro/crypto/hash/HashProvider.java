@@ -19,6 +19,8 @@
 
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
+
 import java.util.Optional;
 import java.util.ServiceLoader;
 import java.util.stream.StreamSupport;
@@ -32,6 +34,7 @@ import static java.util.Objects.requireNonNull;
  *
  * @since 2.0
  */
+@Group("Cryptography")
 public final class HashProvider {
 
     private HashProvider() {

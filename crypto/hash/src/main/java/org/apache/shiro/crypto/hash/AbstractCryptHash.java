@@ -19,6 +19,7 @@
 
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.codec.Base64;
 import org.apache.shiro.lang.codec.Hex;
 import org.apache.shiro.lang.util.ByteSource;
@@ -45,6 +46,7 @@ import static java.util.Objects.requireNonNull;
  *
  * @since 2.0
  */
+@Group("Cryptography")
 public abstract class AbstractCryptHash implements Hash, Serializable {
 
     private static final long serialVersionUID = 2483214646921027859L;

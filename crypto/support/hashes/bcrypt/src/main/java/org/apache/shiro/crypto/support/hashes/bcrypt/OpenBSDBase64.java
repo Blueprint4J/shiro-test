@@ -20,6 +20,8 @@
 package org.apache.shiro.crypto.support.hashes.bcrypt;
 
 
+import honours.research.annotations.Group;
+
 /**
  * Encoder for the custom Base64 variant of BCrypt (called Radix64 here). It has the same rules as Base64 but uses a
  * different mapping table than the various RFCs
@@ -34,6 +36,7 @@ package org.apache.shiro.crypto.support.hashes.bcrypt;
  *
  * @since 2.0
  */
+@Group("Cryptography")
 interface OpenBSDBase64 {
 
 

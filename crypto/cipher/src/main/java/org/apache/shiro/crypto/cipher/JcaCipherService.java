@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.crypto.cipher;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.CryptoException;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.StringUtils;
@@ -67,6 +68,7 @@ import java.security.spec.AlgorithmParameterSpec;
  *
  * @since 1.0
  */
+@Group("Cryptography")
 public abstract class JcaCipherService implements CipherService {
 
     /**

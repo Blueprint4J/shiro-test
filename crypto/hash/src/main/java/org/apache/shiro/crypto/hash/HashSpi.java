@@ -19,6 +19,8 @@
 
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
+
 import java.util.Random;
 import java.util.Set;
 
@@ -32,6 +34,7 @@ import java.util.Set;
  *
  * @since 2.0
  */
+@Group("Cryptography")
 public interface HashSpi {
 
     /**

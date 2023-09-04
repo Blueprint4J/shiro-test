@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.cache;
 
+import honours.research.annotations.Group;
+
 /**
  * A CacheManager provides and maintains the lifecycles of {@link Cache Cache} instances.
  *
@@ -28,6 +30,7 @@ package org.apache.shiro.cache;
  *
  * @since 0.9
  */
+@Group("Cache Manager")
 public interface CacheManager {
 
     /**

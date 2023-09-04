@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.cache;
 
+import honours.research.annotations.Group;
+
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Map;
@@ -29,6 +31,7 @@ import java.util.Set;
  *
  * @since 1.0
  */
+@Group("Cache Manager")
 public class MapCache<K, V> implements Cache<K, V> {
 
     /**

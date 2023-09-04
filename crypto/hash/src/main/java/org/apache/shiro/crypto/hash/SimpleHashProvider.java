@@ -19,6 +19,7 @@
 
 package org.apache.shiro.crypto.hash;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.hash.format.Shiro1CryptFormat;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.SimpleByteSource;
@@ -38,6 +39,7 @@ import static java.util.stream.Collectors.toSet;
  * is a SHA algorithm or similar.
  * @since 2.0
  */
+@Group("Cryptography")
 public class SimpleHashProvider implements HashSpi {
 
     private static final Set<String> IMPLEMENTED_ALGORITHMS = Arrays.stream(new String[]{
