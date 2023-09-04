@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.authz.annotation;
 
+import honours.research.annotations.Group;
+
 /**
  * An enum for specifying a logical operation that can be used for 
  * interpreting authorization annotations 
  *
  * @since 1.1.0
  */
+@Group("Authorizer")
 public enum Logical {
     AND, OR
 }

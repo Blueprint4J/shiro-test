@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.permission;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.lang.ShiroException;
 
 
@@ -27,6 +28,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 0.9
  */
+@Ignore
 public class InvalidPermissionStringException extends ShiroException
 {
 

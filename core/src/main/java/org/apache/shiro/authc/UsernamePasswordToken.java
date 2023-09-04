@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * <p>A simple username/password authentication token to support the most widely-used authentication mechanism.  This
  * class also implements the {@link RememberMeAuthenticationToken RememberMeAuthenticationToken} interface to support
@@ -42,6 +44,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class UsernamePasswordToken implements HostAuthenticationToken, RememberMeAuthenticationToken {
 
     /*--------------------------------------------

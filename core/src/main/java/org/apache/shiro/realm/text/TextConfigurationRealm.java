@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.text;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.SimpleAccount;
 import org.apache.shiro.authz.Permission;
 import org.apache.shiro.authz.SimpleRole;
@@ -48,6 +49,7 @@ import java.util.Set;
  *
  * @since 0.9
  */
+@Group("Realm")
 public class TextConfigurationRealm extends SimpleAccountRealm {
 
     //TODO - complete JavaDoc

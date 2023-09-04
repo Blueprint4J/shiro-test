@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.crypto.hash.Hash;
@@ -32,6 +33,7 @@ import org.apache.shiro.lang.util.ByteSource;
  *
  * @since 1.2
  */
+@Group("Authenticator")
 public class PasswordMatcher implements CredentialsMatcher {
 
     private PasswordService passwordService;

@@ -21,6 +21,7 @@ package org.apache.shiro.jndi;
 import java.util.Properties;
 import javax.naming.NamingException;
 
+import honours.research.annotations.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -39,6 +40,7 @@ import org.slf4j.LoggerFactory;
  * @see #setResourceRef
  * @since 1.1
  */
+@Group("Realm")
 public class JndiLocator {
 
     /**

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
@@ -37,6 +39,7 @@ import java.util.Set;
  * @see #getRealmNames()
  * @since 0.9
  */
+@Group("Subject")
 public interface PrincipalCollection extends Iterable, Serializable {
 
     /**

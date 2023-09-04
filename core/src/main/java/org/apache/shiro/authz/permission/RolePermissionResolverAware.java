@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz.permission;
 
+import honours.research.annotations.Group;
+
 /**
  * Interface implemented by a component that wishes to use any application-configured <tt>RolePermissionResolver</tt> that
  * might already exist instead of potentially creating one itself.
@@ -29,6 +31,7 @@ package org.apache.shiro.authz.permission;
  *
  * @since 1.0
  */
+@Group("Authorizer")
 public interface RolePermissionResolverAware {
 
     /**

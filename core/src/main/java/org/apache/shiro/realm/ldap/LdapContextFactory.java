@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.realm.ldap;
 
+import honours.research.annotations.Group;
+
 import javax.naming.NamingException;
 import javax.naming.ldap.LdapContext;
 
@@ -27,6 +29,7 @@ import javax.naming.ldap.LdapContext;
  *
  * @since 0.2
  */
+@Group("Realm")
 public interface LdapContextFactory {
 
     /**

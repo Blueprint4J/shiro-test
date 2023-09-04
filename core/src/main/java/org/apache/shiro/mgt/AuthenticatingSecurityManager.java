@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -40,6 +41,7 @@ import org.apache.shiro.lang.util.LifecycleUtils;
  *
  * @since 0.9
  */
+@Group("SecurityManager")
 public abstract class AuthenticatingSecurityManager extends RealmSecurityManager {
 
     /**

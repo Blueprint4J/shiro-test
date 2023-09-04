@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -57,6 +58,7 @@ import java.util.concurrent.Callable;
  *
  * @since 0.1
  */
+@Group("Subject")
 public interface Subject {
 
     /**

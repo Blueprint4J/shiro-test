@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
+
 /**
  * Thrown when a particular client (that is, host address) has not been enabled to access the system
  * or if the client has been enabled access but is not permitted to perform a particular operation
@@ -25,6 +27,7 @@ package org.apache.shiro.authz;
  *
  * @since 0.1
  */
+@Group("Authorizer")
 public class HostUnauthorizedException extends UnauthorizedException {
 
     private String host;

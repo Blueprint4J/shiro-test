@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Exception thrown due to a problem with the account
  * under which an authentication attempt is being executed.
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class AccountException extends AuthenticationException {
 
     /**

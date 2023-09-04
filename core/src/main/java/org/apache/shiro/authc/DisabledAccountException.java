@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Thrown when attempting to authenticate and the corresponding account has been disabled for
  * some reason.
@@ -25,6 +27,7 @@ package org.apache.shiro.authc;
  * @see LockedAccountException
  * @since 0.1
  */
+@Group("Authenticator")
 public class DisabledAccountException extends AccountException {
 
     /**

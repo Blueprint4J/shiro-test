@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.ShiroException;
 
 
@@ -26,6 +27,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class AuthenticationException extends ShiroException
 {
 

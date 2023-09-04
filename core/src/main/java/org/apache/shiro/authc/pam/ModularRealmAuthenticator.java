@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.subject.PrincipalCollection;
@@ -61,6 +62,7 @@ import java.util.Collection;
  * @see FirstSuccessfulStrategy
  * @since 0.1
  */
+@Group("Authenticator")
 public class ModularRealmAuthenticator extends AbstractAuthenticator {
 
     /*--------------------------------------------

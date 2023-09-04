@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.env;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.lang.ShiroException;
 
 /**
@@ -25,6 +26,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.2
  */
+@Ignore
 public class EnvironmentException extends ShiroException {
 
     public EnvironmentException(String message) {

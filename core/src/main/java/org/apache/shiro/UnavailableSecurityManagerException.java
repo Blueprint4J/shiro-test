@@ -18,6 +18,8 @@
  */
 package org.apache.shiro;
 
+import honours.research.annotations.Group;
+import honours.research.annotations.Ignore;
 import org.apache.shiro.lang.ShiroException;
 
 /**
@@ -26,6 +28,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.0
  */
+@Ignore
 public class UnavailableSecurityManagerException extends ShiroException {
 
     public UnavailableSecurityManagerException(String message) {

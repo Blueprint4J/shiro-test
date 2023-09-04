@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.Factory;
 
 /**
@@ -25,6 +26,7 @@ import org.apache.shiro.lang.util.Factory;
  *
  * @since 1.0
  */
+@Group("Util")
 public abstract class AbstractFactory<T> implements Factory<T> {
 
     private boolean singleton;

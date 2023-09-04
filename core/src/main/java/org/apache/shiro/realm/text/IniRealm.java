@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.text;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.util.CollectionUtils;
 import org.apache.shiro.lang.util.StringUtils;
@@ -42,6 +43,7 @@ import org.slf4j.LoggerFactory;
  *
  * @since 1.0
  */
+@Group("Realm")
 public class IniRealm extends TextConfigurationRealm {
 
     public static final String USERS_SECTION_NAME = "users";

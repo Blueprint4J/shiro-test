@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
+
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
@@ -27,6 +29,7 @@ import java.util.regex.Matcher;
  * @see Pattern
  * @since 1.0
  */
+@Group("Util")
 public class RegExPatternMatcher implements PatternMatcher {
 
     private static final int DEFAULT = Pattern.DOTALL;

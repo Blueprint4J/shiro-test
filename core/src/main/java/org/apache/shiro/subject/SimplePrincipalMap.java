@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.util.CollectionUtils;
 
 import java.util.*;
@@ -29,6 +30,7 @@ import java.util.*;
  *
  * @since 1.2
  */
+@Group("Subject")
 public class SimplePrincipalMap implements PrincipalMap {
 
     //Key: realm name, Value: map of principals specific to that realm

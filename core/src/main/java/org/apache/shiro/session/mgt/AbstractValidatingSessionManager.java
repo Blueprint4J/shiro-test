@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.session.ExpiredSessionException;
 import org.apache.shiro.session.InvalidSessionException;
@@ -36,6 +37,7 @@ import java.util.Collection;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public abstract class AbstractValidatingSessionManager extends AbstractNativeSessionManager
         implements ValidatingSessionManager, Destroyable {
 

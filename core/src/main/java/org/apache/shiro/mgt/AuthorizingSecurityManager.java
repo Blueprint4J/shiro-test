@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.Authorizer;
 import org.apache.shiro.authz.ModularRealmAuthorizer;
@@ -44,6 +45,7 @@ import java.util.List;
  *
  * @since 0.9
  */
+@Group("SecurityManager")
 public abstract class AuthorizingSecurityManager extends AuthenticatingSecurityManager {
 
     /**

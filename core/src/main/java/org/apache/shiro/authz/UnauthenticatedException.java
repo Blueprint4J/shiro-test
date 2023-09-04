@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Ignore;
+
 /**
  * Exception thrown when attempting to execute an authorization action when a successful
  * authentication hasn't yet occurred.
@@ -28,6 +30,7 @@ package org.apache.shiro.authz;
  *
  * @since 0.1
  */
+@Ignore
 public class UnauthenticatedException extends AuthorizationException {
 
     /**

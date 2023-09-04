@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.concurrent;
 
+import honours.research.annotations.Group;
+
 import java.util.concurrent.*;
 
 /**
  * Same concept as the {@link SubjectAwareExecutorService} but additionally supports the
  * {@link ScheduledExecutorService} interface.
  */
+@Group("Util")
 public class SubjectAwareScheduledExecutorService extends SubjectAwareExecutorService implements ScheduledExecutorService {
 
     private ScheduledExecutorService targetScheduledExecutorService;

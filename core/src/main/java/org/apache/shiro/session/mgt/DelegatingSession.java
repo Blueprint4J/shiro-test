@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.InvalidSessionException;
 import org.apache.shiro.session.Session;
 
@@ -40,6 +41,7 @@ import java.util.Date;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class DelegatingSession implements Session, Serializable {
 
     //TODO - complete JavaDoc

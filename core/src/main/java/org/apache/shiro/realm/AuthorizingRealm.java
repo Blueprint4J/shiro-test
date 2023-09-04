@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.credential.CredentialsMatcher;
 import org.apache.shiro.authz.*;
 import org.apache.shiro.authz.permission.*;
@@ -53,6 +54,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @see org.apache.shiro.authz.SimpleAuthorizationInfo
  * @since 0.2
  */
+@Group("Realm")
 public abstract class AuthorizingRealm extends AuthenticatingRealm
         implements Authorizer, Initializable, PermissionResolverAware, RolePermissionResolverAware {
 

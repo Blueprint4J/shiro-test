@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 
 
@@ -29,6 +30,7 @@ import org.apache.shiro.authc.AuthenticationException;
  * @see org.apache.shiro.authc.pam.AuthenticationStrategy
  * @since 0.2
  */
+@Group("Authenticator")
 public class UnsupportedTokenException extends AuthenticationException {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,6 +41,7 @@ import java.util.Collection;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public abstract class AbstractAuthenticator implements Authenticator, LogoutAware {
 
     /*-------------------------------------------

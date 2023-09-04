@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.aop;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.aop.AnnotationResolver;
 
 /**
@@ -25,6 +26,7 @@ import org.apache.shiro.aop.AnnotationResolver;
  * a permission check to see if the calling <code>Subject</code> is allowed to call the method.
  * @since 0.9
  */
+@Group("Authorizer")
 public class PermissionAnnotationMethodInterceptor extends AuthorizingAnnotationMethodInterceptor {
 
     /*

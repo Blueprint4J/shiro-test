@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Ignore;
+
 /**
  * Internal helper class used to find the Java/JDK version
  * that Shiro is operating within, to allow for automatically
@@ -33,6 +35,7 @@ package org.apache.shiro.util;
  * @since 0.2
  * @deprecated This class is no longer used in Shiro and will be removed in the next major version.
  */
+@Ignore
 @Deprecated
 public abstract class JavaEnvironment {
 

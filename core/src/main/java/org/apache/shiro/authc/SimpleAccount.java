@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.Permission;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.subject.PrincipalCollection;
@@ -36,6 +37,7 @@ import java.util.Set;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class SimpleAccount implements Account, MergableAuthenticationInfo, SaltedAuthenticationInfo, Serializable {
 
     /*--------------------------------------------

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -78,6 +79,7 @@ import java.lang.reflect.Field;
  * @see DefaultSessionStorageEvaluator
  * @since 1.2
  */
+@Group("SecurityManager")
 public class DefaultSubjectDAO implements SubjectDAO {
 
     private static final Logger log = LoggerFactory.getLogger(DefaultSubjectDAO.class);

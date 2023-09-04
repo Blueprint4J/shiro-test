@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.ldap;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -76,6 +77,7 @@ import java.util.Map;
  *
  * @since 1.1
  */
+@Group("Realm")
 public class JndiLdapContextFactory implements LdapContextFactory {
 
     /*-------------------------------------------

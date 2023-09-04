@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.env;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.mgt.SecurityManager;
 
 /**
@@ -33,6 +34,7 @@ import org.apache.shiro.mgt.SecurityManager;
  *
  * @since 1.2
  */
+@Ignore
 public interface Environment {
 
     /**

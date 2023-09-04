@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SaltedAuthenticationInfo;
@@ -117,6 +118,7 @@ import static java.util.Objects.requireNonNull;
  * @see org.apache.shiro.crypto.hash.Sha256Hash
  * @since 0.9
  */
+@Group("Authenticator")
 public class HashedCredentialsMatcher extends SimpleCredentialsMatcher {
 
     /**

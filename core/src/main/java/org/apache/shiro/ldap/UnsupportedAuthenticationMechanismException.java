@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.ldap;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.dao.InvalidResourceUsageException;
 
 /**
@@ -27,6 +28,7 @@ import org.apache.shiro.dao.InvalidResourceUsageException;
  *
  * @since 1.2
  */
+@Group("Realm")
 public class UnsupportedAuthenticationMechanismException extends InvalidResourceUsageException {
 
     public UnsupportedAuthenticationMechanismException(String message) {

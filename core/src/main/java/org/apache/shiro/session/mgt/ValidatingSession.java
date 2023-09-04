@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.InvalidSessionException;
 import org.apache.shiro.session.Session;
 
@@ -31,6 +32,7 @@ import org.apache.shiro.session.Session;
  * 
  * @since 0.9
  */
+@Group("SessionManager")
 public interface ValidatingSession extends Session {
 
     boolean isValid();

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
+
 /**
  * Interface for components that can match source strings against a specified pattern string.
  * <p/>
@@ -27,6 +29,7 @@ package org.apache.shiro.util;
  * @see org.apache.shiro.lang.util.AntPathMatcher AntPathMatcher
  * @since 0.9 RC2
  */
+@Group("Util")
 public interface PatternMatcher {
 
     /**

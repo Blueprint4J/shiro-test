@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.realm;
 
+import honours.research.annotations.Group;
+
 import java.util.Collection;
 
 /**
@@ -34,6 +36,7 @@ import java.util.Collection;
  *
  * @since 0.9
  */
+@Group("Realm")
 public interface RealmFactory {
 
     /**

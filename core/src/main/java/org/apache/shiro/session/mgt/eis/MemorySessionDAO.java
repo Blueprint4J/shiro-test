@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.UnknownSessionException;
 import org.apache.shiro.util.CollectionUtils;
@@ -53,6 +54,7 @@ import java.util.concurrent.ConcurrentMap;
  * @see CachingSessionDAO
  * @since 0.1
  */
+@Group("Session DAO")
 public class MemorySessionDAO extends AbstractSessionDAO {
 
     private static final Logger log = LoggerFactory.getLogger(MemorySessionDAO.class);

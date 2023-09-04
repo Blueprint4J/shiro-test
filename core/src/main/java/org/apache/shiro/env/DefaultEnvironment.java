@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.env;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.lang.util.Destroyable;
 import org.apache.shiro.lang.util.LifecycleUtils;
@@ -31,6 +32,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * @since 1.2
  */
+@Ignore
 public class DefaultEnvironment implements NamedObjectEnvironment, Destroyable {
 
     /**

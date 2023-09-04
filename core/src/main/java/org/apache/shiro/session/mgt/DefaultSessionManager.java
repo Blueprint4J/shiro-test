@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cache.CacheManagerAware;
 import org.apache.shiro.session.Session;
@@ -38,6 +39,7 @@ import java.util.Date;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class DefaultSessionManager extends AbstractValidatingSessionManager implements CacheManagerAware {
 
     //TODO - complete JavaDoc

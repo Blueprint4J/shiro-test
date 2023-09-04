@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -39,6 +40,7 @@ import java.util.Collection;
  * @see FirstSuccessfulStrategy
  * @since 0.2
  */
+@Group("Authenticator")
 public interface AuthenticationStrategy {
 
     /**

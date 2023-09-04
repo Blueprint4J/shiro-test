@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 
 /**
@@ -57,6 +59,7 @@ import java.io.Serializable;
  * @see UsernamePasswordToken
  * @since 0.1
  */
+@Group("Authenticator")
 public interface AuthenticationToken extends Serializable {
 
     /**

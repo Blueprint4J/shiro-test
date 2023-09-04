@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
+
 import java.util.Map;
 
 /**
@@ -47,6 +49,7 @@ import java.util.Map;
  *
  * @since 1.2
  */
+@Group("Subject")
 public interface PrincipalMap extends PrincipalCollection, Map<String,Object> {
 
     Map<String,Object> getRealmPrincipals(String realmName);

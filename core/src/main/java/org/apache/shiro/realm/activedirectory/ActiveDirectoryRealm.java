@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.activedirectory;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.SimpleAuthenticationInfo;
@@ -50,6 +51,7 @@ import java.util.*;
  *
  * @since 0.1
  */
+@Group("Realm")
 public class ActiveDirectoryRealm extends AbstractLdapRealm {
 
     //TODO - complete JavaDoc

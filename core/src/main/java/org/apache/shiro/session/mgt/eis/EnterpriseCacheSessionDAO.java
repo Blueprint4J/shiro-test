@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.cache.AbstractCacheManager;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheException;
@@ -49,6 +50,7 @@ import java.util.concurrent.ConcurrentHashMap;
  *
  * @since 1.0
  */
+@Group("Session DAO")
 public class EnterpriseCacheSessionDAO extends CachingSessionDAO {
 
     public EnterpriseCacheSessionDAO() {

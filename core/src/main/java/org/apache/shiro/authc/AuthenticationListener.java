@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.PrincipalCollection;
 
 /**
@@ -25,6 +26,7 @@ import org.apache.shiro.subject.PrincipalCollection;
  *
  * @since 0.9
  */
+@Group("Authenticator")
 public interface AuthenticationListener {
 
     /**

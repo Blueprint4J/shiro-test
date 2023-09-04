@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.Subject;
 
 /**
@@ -45,6 +46,7 @@ import org.apache.shiro.subject.Subject;
  * @see DefaultSessionStorageEvaluator
  * @since 1.2
  */
+@Group("SecurityManager")
 public interface SessionStorageEvaluator {
 
     /**

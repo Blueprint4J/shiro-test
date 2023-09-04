@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.realm.ldap;
 
+import honours.research.annotations.Ignore;
+
 /**
  * This class has been replaced with DefaultLdapRealm.
  * @see DefaultLdapRealm
@@ -25,6 +27,7 @@ package org.apache.shiro.realm.ldap;
  * @since 1.1
  *
  */
+@Ignore
 public class JndiLdapRealm extends DefaultLdapRealm {
 
 }

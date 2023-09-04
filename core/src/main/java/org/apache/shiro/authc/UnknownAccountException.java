@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Thrown when attempting to authenticate with a principal that doesn't exist in the system (e.g.
  * by specifying a username that doesn't relate to a user account).
@@ -28,6 +30,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class UnknownAccountException extends AccountException {
 
     /**

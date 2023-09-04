@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.dao;
 
+import honours.research.annotations.Ignore;
+
 /**
  * Root exception indicating invalid or incorrect usage of a data access resource.  This is thrown
  * typically when incorrectly using the resource or its API.
  *
  * @since 1.2
  */
+@Ignore
 public class InvalidResourceUsageException extends DataAccessException {
 
     /**

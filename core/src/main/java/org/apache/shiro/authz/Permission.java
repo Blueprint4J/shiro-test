@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
+
 /**
  * A Permission represents the ability to perform an action or access a resource.  A Permission is the most
  * granular, or atomic, unit in a system's security policy and is the cornerstone upon which fine-grained security
@@ -63,6 +65,7 @@ package org.apache.shiro.authz;
  * @see org.apache.shiro.authz.permission.WildcardPermission WildcardPermission
  * @since 0.2
  */
+@Group("Authorizer")
 public interface Permission {
 
     /**

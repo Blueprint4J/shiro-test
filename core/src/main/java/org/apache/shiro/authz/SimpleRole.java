@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.LinkedHashSet;
@@ -29,6 +31,7 @@ import java.util.Set;
  *
  * @since 0.2
  */
+@Group("Authorizer")
 public class SimpleRole implements Serializable {
 
     protected String name = null;

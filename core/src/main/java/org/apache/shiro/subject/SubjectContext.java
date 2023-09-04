@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.mgt.SecurityManager;
@@ -56,6 +57,7 @@ import java.util.Map;
  * @see org.apache.shiro.mgt.SubjectFactory SubjectFactory
  * @since 1.0
  */
+@Group("Subject")
 public interface SubjectContext extends Map<String, Object> {
 
     /**

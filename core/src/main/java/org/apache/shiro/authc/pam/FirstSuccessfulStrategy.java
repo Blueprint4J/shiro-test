@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -35,6 +36,7 @@ import java.util.Collection;
  * @see AtLeastOneSuccessfulStrategy AtLeastOneSuccessfulAuthenticationStrategy
  * @since 0.9
  */
+@Group("Authenticator")
 public class FirstSuccessfulStrategy extends AbstractAuthenticationStrategy {
 
     private boolean stopAfterFirstSuccess;

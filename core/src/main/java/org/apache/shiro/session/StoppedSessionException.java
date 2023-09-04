@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
+
 /**
  * Exception thrown when attempting to interact with the system under a session that has been
  * stopped.  A session may be stopped in any number of ways, most commonly due to explicit
@@ -25,6 +27,7 @@ package org.apache.shiro.session;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class StoppedSessionException extends InvalidSessionException {
 
     /**

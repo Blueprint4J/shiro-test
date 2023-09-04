@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.UnknownSessionException;
 import org.apache.shiro.session.mgt.SimpleSession;
@@ -43,6 +44,7 @@ import java.io.Serializable;
  *
  * @since 1.0
  */
+@Group("Session DAO")
 public abstract class AbstractSessionDAO implements SessionDAO {
 
     /**

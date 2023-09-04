@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
+
 /**
  * Exception thrown when attempting to interact with the system under the pretense of a
  * particular session (e.g. under a specific session id), and that session does not exist in
@@ -25,6 +27,7 @@ package org.apache.shiro.session;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class UnknownSessionException extends InvalidSessionException {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject.support;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.HostAuthenticationToken;
@@ -69,6 +70,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  *
  * @since 0.1
  */
+@Group("Subject")
 public class DelegatingSubject implements Subject {
 
     private static final Logger log = LoggerFactory.getLogger(DelegatingSubject.class);

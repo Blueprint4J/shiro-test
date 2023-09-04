@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz.aop;
 
+import honours.research.annotations.Group;
+
 import javax.annotation.security.PermitAll;
 import java.lang.annotation.Annotation;
 
@@ -29,6 +31,7 @@ import java.lang.annotation.Annotation;
  *
  * @since 2.0
  */
+@Group("Authorizer")
 public class PermitAllAnnotationHandler extends AuthorizingAnnotationHandler {
     /**
      * Default no-argument constructor that ensures this interceptor looks for a {@link PermitAll}

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.jdbc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AccountException;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -61,6 +62,7 @@ import java.util.Set;
  *
  * @since 0.2
  */
+@Group("Realm")
 public class JdbcRealm extends AuthorizingRealm {
 
     //TODO - complete JavaDoc

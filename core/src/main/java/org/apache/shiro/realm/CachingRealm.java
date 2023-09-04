@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.LogoutAware;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cache.CacheManagerAware;
@@ -45,6 +46,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @see #getAvailablePrincipal(org.apache.shiro.subject.PrincipalCollection)
  * @since 0.9
  */
+@Group("Realm")
 public abstract class CachingRealm implements Realm, Nameable, CacheManagerAware, LogoutAware {
 
     private static final Logger log = LoggerFactory.getLogger(CachingRealm.class);

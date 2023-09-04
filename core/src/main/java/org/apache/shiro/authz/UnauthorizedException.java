@@ -18,11 +18,14 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Ignore;
+
 /**
  * Thrown to indicate a requested operation or access to a requested resource is not allowed.
  *
  * @since 0.1
  */
+@Ignore
 public class UnauthorizedException extends AuthorizationException {
 
     /**

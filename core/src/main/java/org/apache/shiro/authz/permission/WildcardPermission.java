@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.permission;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.Permission;
 import org.apache.shiro.util.CollectionUtils;
 import org.apache.shiro.lang.util.StringUtils;
@@ -103,6 +104,7 @@ import java.util.Set;
  *
  * @since 0.9
  */
+@Group("Authorizer")
 public class WildcardPermission implements Permission, Serializable {
 
     //TODO - JavaDoc methods

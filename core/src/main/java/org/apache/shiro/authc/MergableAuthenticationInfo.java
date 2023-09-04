@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * <p>An extension of the {@link AuthenticationInfo} interface to be implemented by
  * classes that support merging with other {@link AuthenticationInfo} instances.</p>
@@ -32,6 +34,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.9
  */
+@Group("Authenticator")
 public interface MergableAuthenticationInfo extends AuthenticationInfo {
 
     /**

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.aop;
 
+import honours.research.annotations.Ignore;
+
 import java.lang.annotation.Annotation;
 
 /**
@@ -25,6 +27,7 @@ import java.lang.annotation.Annotation;
  *
  * @since 1.1
  */
+@Ignore
 public interface AnnotationResolver {
 
     /**

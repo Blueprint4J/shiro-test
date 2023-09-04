@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.permission;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.Permission;
 
 import java.util.Collection;
@@ -30,6 +31,7 @@ import java.util.Collection;
  * component allows an application to resolve the roles into permissions.
  *
  */
+@Group("Authorizer")
 public interface RolePermissionResolver {
 
     /**

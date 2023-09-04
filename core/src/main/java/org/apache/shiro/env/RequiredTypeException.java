@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.env;
 
+import honours.research.annotations.Ignore;
+
 /**
  * Exception thrown when attempting to acquire an object of a required type and that object does not equal, extend, or
  * implement a specified {@code Class}.
  *
  * @since 1.2
  */
+@Ignore
 public class RequiredTypeException extends EnvironmentException {
 
     public RequiredTypeException(String message) {

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
+
 /**
  * Interface that should be implemented by classes that can control validating sessions on a regular
  * basis.  This interface is used as a delegate for session validation by the {@link org.apache.shiro.session.mgt.DefaultSessionManager}
@@ -25,6 +27,7 @@ package org.apache.shiro.session.mgt;
  * @see org.apache.shiro.session.mgt.DefaultSessionManager#setSessionValidationScheduler(SessionValidationScheduler)
  * @since 0.1
  */
+@Group("SessionManager")
 public interface SessionValidationScheduler {
 
     /**

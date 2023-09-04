@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Thrown when a system is configured to only allow a certain number of authentication attempts
  * over a period of time and the current session has failed to authenticate successfully within
@@ -27,6 +29,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class ExcessiveAttemptsException extends AccountException {
 
     /**

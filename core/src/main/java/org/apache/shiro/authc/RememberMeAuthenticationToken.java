@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * An {@code AuthenticationToken} that indicates if the user wishes their identity to be remembered across sessions.
  * <p/>
@@ -29,6 +31,7 @@ package org.apache.shiro.authc;
  * @see org.apache.shiro.subject.Subject#isRemembered()
  * @since 0.9
  */
+@Group("Authenticator")
 public interface RememberMeAuthenticationToken extends AuthenticationToken {
 
     /**

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.aop;
 
+import honours.research.annotations.Ignore;
+
 import java.lang.reflect.Method;
 
 /**
@@ -26,6 +28,7 @@ import java.lang.reflect.Method;
  *
  * @since 0.1
  */
+@Ignore
 public interface MethodInvocation {
 
     /**

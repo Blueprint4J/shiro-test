@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject.support;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.CollectionUtils;
@@ -39,6 +40,7 @@ import java.util.Map;
  *
  * @since 1.0
  */
+@Group("Subject")
 public class SubjectThreadState implements ThreadState {
 
     private Map<Object, Object> originalResources;

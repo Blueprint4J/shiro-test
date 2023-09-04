@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.dao;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.lang.ShiroException;
 
 /**
@@ -28,6 +29,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.2
  */
+@Ignore
 public abstract class DataAccessException extends ShiroException {
 
     /**

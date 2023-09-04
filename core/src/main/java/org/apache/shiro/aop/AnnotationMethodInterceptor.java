@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.aop;
 
+import honours.research.annotations.Ignore;
+
 import java.lang.annotation.Annotation;
 
 /**
@@ -30,6 +32,7 @@ import java.lang.annotation.Annotation;
  *
  * @since 0.9
  */
+@Ignore
 public abstract class AnnotationMethodInterceptor extends MethodInterceptorSupport {
 
     private AnnotationHandler handler;

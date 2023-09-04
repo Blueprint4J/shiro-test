@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.concurrent;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.Subject;
 
 import java.util.ArrayList;
@@ -55,6 +56,7 @@ import java.util.concurrent.*;
  *
  * @since 1.0
  */
+@Group("Util")
 public class SubjectAwareExecutorService extends SubjectAwareExecutor implements ExecutorService {
 
     private ExecutorService targetExecutorService;

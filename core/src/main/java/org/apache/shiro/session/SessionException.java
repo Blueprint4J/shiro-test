@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.ShiroException;
 
 
@@ -27,6 +28,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class SessionException extends ShiroException {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.crypto.hash.AbstractHash;
 import org.apache.shiro.crypto.hash.Hash;
 import org.apache.shiro.crypto.hash.Sha384Hash;
@@ -31,6 +32,7 @@ import org.apache.shiro.crypto.hash.Sha384Hash;
  * @deprecated since 1.1 - use the HashedCredentialsMatcher directly and set its
  *             {@link HashedCredentialsMatcher#setHashAlgorithmName(String) hashAlgorithmName} property.
  */
+@Ignore
 public class Sha384CredentialsMatcher extends HashedCredentialsMatcher {
 
     public Sha384CredentialsMatcher() {

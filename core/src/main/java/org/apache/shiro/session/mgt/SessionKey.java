@@ -15,6 +15,8 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 
 /**
@@ -31,6 +33,7 @@ import java.io.Serializable;
  *
  * @since 1.0
  */
+@Group("SessionManager")
 public interface SessionKey {
 
     /**

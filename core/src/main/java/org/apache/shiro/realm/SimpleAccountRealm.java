@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -48,6 +49,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  *
  * @since 0.1
  */
+@Group("Realm")
 public class SimpleAccountRealm extends AuthorizingRealm {
 
     //TODO - complete JavaDoc

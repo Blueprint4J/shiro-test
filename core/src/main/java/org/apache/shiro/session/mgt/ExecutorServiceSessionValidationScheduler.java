@@ -24,6 +24,7 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
+import honours.research.annotations.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,6 +36,7 @@ import org.slf4j.LoggerFactory;
  *
  * @since 0.9
  */
+@Group("SessionManager")
 public class ExecutorServiceSessionValidationScheduler implements SessionValidationScheduler, Runnable {
 
     //TODO - complete JavaDoc

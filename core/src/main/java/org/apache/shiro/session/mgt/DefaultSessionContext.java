@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.util.MapContext;
 import org.apache.shiro.lang.util.StringUtils;
 
@@ -30,6 +31,7 @@ import java.util.Map;
  *
  * @since 1.0
  */
+@Group("SessionManager")
 public class DefaultSessionContext extends MapContext implements SessionContext {
 
     private static final long serialVersionUID = -1424160751361252966L;

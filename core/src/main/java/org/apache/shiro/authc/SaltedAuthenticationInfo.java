@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 
 /**
@@ -37,6 +38,7 @@ import org.apache.shiro.lang.util.ByteSource;
  *
  * @since 1.1
  */
+@Group("Authenticator")
 public interface SaltedAuthenticationInfo extends AuthenticationInfo {
 
     /**

@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
+
 /**
  * A ValidatingSessionManager is a SessionManager that can proactively validate any or all sessions
  * that may be expired.
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public interface ValidatingSessionManager extends SessionManager {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.ini;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.config.ConfigurationException;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.config.ogdl.ReflectionBuilder;
@@ -48,6 +49,7 @@ import java.util.Map;
  * @deprecated use Shiro's {@code Environment} mechanisms instead.
  */
 @Deprecated
+@Ignore
 public class IniSecurityManagerFactory extends IniFactorySupport<SecurityManager> {
 
     public static final String MAIN_SECTION_NAME = "main";

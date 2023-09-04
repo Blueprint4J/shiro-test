@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 
 /**
@@ -25,6 +26,7 @@ import org.apache.shiro.session.Session;
  *
  * @since 1.0
  */
+@Group("SessionManager")
 public class SimpleSessionFactory implements SessionFactory {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.subject.SubjectContext;
 
@@ -28,6 +29,7 @@ import java.util.Map;
  *
  * @since 1.0
  */
+@Group("SecurityManager")
 public interface SubjectFactory {
 
     /**

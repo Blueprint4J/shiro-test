@@ -20,6 +20,7 @@ package org.apache.shiro.authz.permission;
 
 import java.io.Serializable;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.Permission;
 
 
@@ -33,6 +34,7 @@ import org.apache.shiro.authz.Permission;
  *
  * @since 0.1
  */
+@Group("Authorizer")
 public class AllPermission implements Permission, Serializable {
 
     /**

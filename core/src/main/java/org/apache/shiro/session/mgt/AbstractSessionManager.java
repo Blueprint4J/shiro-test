@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 
 /**
@@ -33,6 +34,7 @@ import org.apache.shiro.session.Session;
 //ServletContainerSessionManager implementation does not use this value
 //(see https://issues.apache.org/jira/browse/SHIRO-240 for why).  That means that only the Native session managers
 //need a globalSessionTimeout property, making this class unnecessary.
+@Group("SessionManager")
 public abstract class AbstractSessionManager implements SessionManager {
 
     protected static final long MILLIS_PER_SECOND = 1000;

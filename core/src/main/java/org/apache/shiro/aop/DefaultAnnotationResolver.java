@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.aop;
 
+import honours.research.annotations.Ignore;
+
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
@@ -38,6 +40,7 @@ import java.lang.reflect.Method;
  *
  * @since 1.1
  */
+@Ignore
 public class DefaultAnnotationResolver implements AnnotationResolver {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -31,6 +32,7 @@ import org.apache.shiro.subject.SubjectContext;
  *
  * @since 0.9
  */
+@Group("SecurityManager")
 public interface RememberMeManager {
 
     /**

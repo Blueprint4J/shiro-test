@@ -26,6 +26,7 @@ import javax.naming.NamingException;
 import javax.naming.directory.Attribute;
 import javax.naming.ldap.LdapContext;
 
+import honours.research.annotations.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -35,6 +36,7 @@ import org.slf4j.LoggerFactory;
  *
  * @since 0.2
  */
+@Group("Realm")
 public final class LdapUtils {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cache.CacheManagerAware;
 import org.apache.shiro.event.EventBus;
@@ -37,6 +38,7 @@ import org.apache.shiro.lang.util.LifecycleUtils;
  *
  * @since 0.9
  */
+@Group("SecurityManager")
 public abstract class CachingSecurityManager implements SecurityManager, Destroyable, CacheManagerAware, EventBusAware {
 
     /**

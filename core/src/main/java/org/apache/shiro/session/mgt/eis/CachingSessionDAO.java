@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.cache.Cache;
 import org.apache.shiro.cache.CacheManager;
 import org.apache.shiro.cache.CacheManagerAware;
@@ -45,6 +46,7 @@ import java.util.Collections;
  *
  * @since 0.2
  */
+@Group("Session DAO")
 public abstract class CachingSessionDAO extends AbstractSessionDAO implements CacheManagerAware {
 
     /**

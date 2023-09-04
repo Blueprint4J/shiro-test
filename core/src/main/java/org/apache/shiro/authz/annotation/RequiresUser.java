@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz.annotation;
 
+import honours.research.annotations.Group;
+
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -49,5 +51,6 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
+@Group("Authorizer")
 public @interface RequiresUser {
 }

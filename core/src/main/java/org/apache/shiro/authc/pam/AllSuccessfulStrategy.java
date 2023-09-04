@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -38,6 +39,7 @@ import org.apache.shiro.realm.Realm;
  *
  * @since 0.2
  */
+@Group("Authenticator")
 public class AllSuccessfulStrategy extends AbstractAuthenticationStrategy {
 
     /** Private class log instance. */

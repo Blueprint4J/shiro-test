@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Thrown when an authentication attempt has been received for an account that has already been
  * authenticated (i.e. logged-in), and the system is configured to prevent such concurrent access.
@@ -35,6 +37,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class ConcurrentAccessException extends AccountException {
 
     /**

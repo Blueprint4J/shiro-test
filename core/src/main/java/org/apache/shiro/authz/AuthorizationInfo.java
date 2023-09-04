@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 import java.util.Collection;
 
@@ -55,6 +57,7 @@ import java.util.Collection;
  * @see org.apache.shiro.authc.Account
  * @since 0.9
  */
+@Group("Authorizer")
 public interface AuthorizationInfo extends Serializable {
 
     /**

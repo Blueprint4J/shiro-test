@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.ini;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.lang.io.ResourceUtils;
 import org.apache.shiro.util.AbstractFactory;
@@ -36,6 +37,7 @@ import java.util.Map;
  * @deprecated use Shiro's {@code Environment} mechanisms instead.
  */
 @Deprecated
+@Ignore
 public abstract class IniFactorySupport<T> extends AbstractFactory<T> {
 
     public static final String DEFAULT_INI_RESOURCE_PATH = "classpath:shiro.ini";

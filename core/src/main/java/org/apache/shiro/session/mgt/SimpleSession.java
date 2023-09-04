@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.ExpiredSessionException;
 import org.apache.shiro.session.InvalidSessionException;
 import org.apache.shiro.session.StoppedSessionException;
@@ -39,6 +40,7 @@ import java.util.*;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class SimpleSession implements ValidatingSession, Serializable {
 
     // Serialization reminder:

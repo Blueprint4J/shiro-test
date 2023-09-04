@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * An Authenticator is responsible for authenticating accounts in an application.  It
  * is one of the primary entry points into the Shiro API.
@@ -36,6 +38,7 @@ package org.apache.shiro.authc;
  * @see org.apache.shiro.authc.pam.ModularRealmAuthenticator ModularRealmAuthenticator
  * @since 0.1
  */
+@Group("Authenticator")
 public interface Authenticator {
 
     /**

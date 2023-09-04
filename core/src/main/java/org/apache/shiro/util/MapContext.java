@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 import java.util.*;
 
@@ -29,6 +31,7 @@ import java.util.*;
  * @see org.apache.shiro.session.mgt.SessionContext SessionContext
  * @since 1.0
  */
+@Group("Util")
 public class MapContext implements Map<String, Object>, Serializable {
 
     private static final long serialVersionUID = 5373399119017820322L;

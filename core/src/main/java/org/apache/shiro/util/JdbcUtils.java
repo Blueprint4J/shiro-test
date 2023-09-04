@@ -23,6 +23,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import honours.research.annotations.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -34,7 +35,8 @@ import org.slf4j.LoggerFactory;
  * (Apache 2.0) have been maintained.
  *
  * @since 0.2
- */
+ */@Group("Util")
+
 public class JdbcUtils {
 
     /** Private internal log instance. */

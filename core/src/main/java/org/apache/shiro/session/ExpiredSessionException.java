@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
+
 /**
  * A special case of a StoppedSessionException.  An expired session is a session that has
  * stopped explicitly due to inactivity (i.e. time-out), as opposed to stopping due to log-out or
@@ -25,6 +27,7 @@ package org.apache.shiro.session;
  *
  * @since 0.1
  */
+@Group("SessionManager")
 public class ExpiredSessionException extends StoppedSessionException {
 
     /**

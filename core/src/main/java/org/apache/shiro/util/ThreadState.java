@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
+
 /**
  * A {@code ThreadState} instance manages any state that might need to be bound and/or restored during a thread's
  * execution.
@@ -40,6 +42,7 @@ package org.apache.shiro.util;
  *
  * @since 1.0
  */
+@Group("Util")
 public interface ThreadState {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.aop;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.aop.AnnotationMethodInterceptor;
 import org.apache.shiro.aop.AnnotationResolver;
 import org.apache.shiro.aop.MethodInvocation;
@@ -30,6 +31,7 @@ import org.apache.shiro.authz.AuthorizationException;
  *
  * @since 0.1
  */
+@Group("Authorizer")
 public abstract class AuthorizingAnnotationMethodInterceptor extends AnnotationMethodInterceptor
 {
     

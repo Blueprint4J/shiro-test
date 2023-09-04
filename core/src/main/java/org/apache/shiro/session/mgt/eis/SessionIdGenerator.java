@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 
 import java.io.Serializable;
@@ -38,6 +39,7 @@ import java.io.Serializable;
  * @see org.apache.shiro.session.mgt.eis.RandomSessionIdGenerator RandomSessionIdGenerator
  * @since 1.0
  */
+@Group("Session DAO")
 public interface SessionIdGenerator {
 
     /**

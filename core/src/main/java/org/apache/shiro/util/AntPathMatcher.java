@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.StringUtils;
 
 /**
@@ -59,6 +60,7 @@ import org.apache.shiro.lang.util.StringUtils;
  *
  * @since 16.07.2003
  */
+@Group("Util")
 public class AntPathMatcher implements PatternMatcher {
 
     //TODO - complete JavaDoc

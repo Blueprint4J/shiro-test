@@ -15,6 +15,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.InvalidSessionException;
 
 import java.util.Collection;
@@ -27,6 +28,7 @@ import java.util.Date;
  *
  * @since 1.0
  */
+@Group("SessionManager")
 public interface NativeSessionManager extends SessionManager {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 import org.apache.shiro.lang.util.SimpleByteSource;
 import org.apache.shiro.subject.MutablePrincipalCollection;
@@ -37,6 +38,7 @@ import java.util.Set;
  * @see org.apache.shiro.realm.AuthenticatingRealm
  * @since 0.9
  */
+@Group("Authenticator")
 public class SimpleAuthenticationInfo implements MergableAuthenticationInfo, SaltedAuthenticationInfo {
 
     private static final long serialVersionUID = 5390456512469696779L;

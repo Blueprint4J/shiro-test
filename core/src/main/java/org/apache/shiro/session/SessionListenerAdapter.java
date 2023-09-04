@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
+
 /**
  * Simple adapter implementation of the {@link SessionListener} interface, effectively providing
  * no-op implementations of all methods.
  *
  * @since 1.0
  */
+@Group("SessionManager")
 public class SessionListenerAdapter implements SessionListener {
 
     /**

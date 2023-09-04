@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject.support;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.UnavailableSecurityManagerException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -44,6 +45,7 @@ import java.io.Serializable;
  *
  * @since 1.0
  */
+@Group("Subject")
 public class DefaultSubjectContext extends MapContext implements SubjectContext {
 
     private static final String SECURITY_MANAGER = DefaultSubjectContext.class.getName() + ".SECURITY_MANAGER";

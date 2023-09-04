@@ -18,6 +18,7 @@
  */
 package org.apache.shiro;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.ThreadContext;
@@ -28,6 +29,7 @@ import org.apache.shiro.util.ThreadContext;
  *
  * @since 0.2
  */
+@Group("Util")
 public abstract class SecurityUtils {
 
     /**

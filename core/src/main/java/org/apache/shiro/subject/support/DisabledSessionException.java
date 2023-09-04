@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.subject.support;
 
+import honours.research.annotations.Group;
+import honours.research.annotations.Ignore;
 import org.apache.shiro.session.SessionException;
 
 /**
@@ -34,6 +36,7 @@ import org.apache.shiro.session.SessionException;
  *
  * @since 1.2
  */
+@Ignore
 public class DisabledSessionException extends SessionException {
 
     public DisabledSessionException(String message) {

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.PrincipalCollection;
 
 import java.util.Collection;
@@ -45,6 +46,7 @@ import java.util.List;
  *
  * @since 0.1
  */
+@Group("Authorizer")
 public interface Authorizer {
 
     /**

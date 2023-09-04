@@ -19,6 +19,8 @@
 package org.apache.shiro.mgt;
 
 import java.util.function.Supplier;
+
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -63,6 +65,7 @@ import org.slf4j.LoggerFactory;
  *
  * @since 0.9
  */
+@Group("SecurityManager")
 public abstract class AbstractRememberMeManager implements RememberMeManager {
 
     /**

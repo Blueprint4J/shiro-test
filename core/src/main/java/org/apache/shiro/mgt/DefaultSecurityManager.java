@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -72,6 +73,7 @@ import java.util.Collection;
  *
  * @since 0.2
  */
+@Group("SecurityManager")
 public class DefaultSecurityManager extends SessionsSecurityManager {
 
     private static final Logger log = LoggerFactory.getLogger(DefaultSecurityManager.class);

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.Permission;
 import org.apache.shiro.authz.permission.PermissionResolver;
 import org.apache.shiro.lang.util.StringUtils;
@@ -33,6 +34,7 @@ import java.util.Set;
  *
  * @since 0.1
  */
+@Group("Util")
 public class PermissionUtils {
 
     public static Set<Permission> resolveDelimitedPermissions(String s, PermissionResolver permissionResolver) {

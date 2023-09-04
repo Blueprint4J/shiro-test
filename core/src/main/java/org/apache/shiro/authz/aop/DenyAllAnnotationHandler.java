@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.aop;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.UnauthenticatedException;
 import org.apache.shiro.authz.UnauthorizedException;
 
@@ -30,6 +31,7 @@ import java.lang.annotation.Annotation;
  *
  * @since 2.0
  */
+@Group("Authorizer")
 public class DenyAllAnnotationHandler extends AuthorizingAnnotationHandler {
 
 

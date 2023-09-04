@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Thrown during the authentication process when the system determines the submitted credential(s)
  * has expired and will not allow login.
@@ -29,6 +31,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class ExpiredCredentialsException extends CredentialsException {
 
     /**

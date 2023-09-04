@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.util.CollectionUtils;
 import org.apache.shiro.lang.util.StringUtils;
 
@@ -34,6 +35,7 @@ import java.util.*;
  * @since 0.9
  */
 @SuppressWarnings({"unchecked"})
+@Group("Subject")
 public class SimplePrincipalCollection implements MutablePrincipalCollection {
 
     // Serialization reminder:

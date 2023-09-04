@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.permission;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.Permission;
 
 
@@ -27,6 +28,7 @@ import org.apache.shiro.authz.Permission;
  *
  * @since 0.9
  */
+@Group("Authorizer")
 public class WildcardPermissionResolver implements PermissionResolver {
     boolean caseSensitive;
     

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.subject.Subject;
 import org.slf4j.Logger;
@@ -43,6 +44,7 @@ import java.util.Map;
  * @see #remove()
  * @since 0.1
  */
+@Group("Util")
 public abstract class ThreadContext {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 
 
@@ -33,6 +34,7 @@ import org.apache.shiro.authc.AuthenticationException;
  * @see org.apache.shiro.authc.pam.FirstSuccessfulStrategy
  * @since 1.4.1
  */
+@Group("Authenticator")
 public class ShortCircuitIterationException extends AuthenticationException {
 
     /**

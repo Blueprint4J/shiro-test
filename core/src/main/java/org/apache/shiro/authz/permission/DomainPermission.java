@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.permission;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.StringUtils;
 
 import java.util.Set;
@@ -30,6 +31,7 @@ import java.util.Set;
  *
  * @since 1.0
  */
+@Group("Authorizer")
 public class DomainPermission extends WildcardPermission {
 
     private String domain;

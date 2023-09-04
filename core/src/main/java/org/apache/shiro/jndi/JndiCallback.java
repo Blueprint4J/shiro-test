@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.jndi;
 
+import honours.research.annotations.Group;
+
 import javax.naming.Context;
 import javax.naming.NamingException;
 
@@ -38,6 +40,7 @@ import javax.naming.NamingException;
  *
  * @see JndiTemplate
  */
+@Group("Realm")
 public interface JndiCallback {
 
     /**

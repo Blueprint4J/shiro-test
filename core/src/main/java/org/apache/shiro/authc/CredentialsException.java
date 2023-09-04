@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * Exception thrown due to a problem with the credential(s) submitted for an
  * account during the authentication process.
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class CredentialsException extends AuthenticationException {
 
     /**

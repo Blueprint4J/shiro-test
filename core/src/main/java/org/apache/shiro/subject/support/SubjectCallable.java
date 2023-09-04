@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.subject.support;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.util.ThreadState;
 
@@ -57,6 +58,7 @@ import java.util.concurrent.Callable;
  * @see org.apache.shiro.concurrent.SubjectAwareExecutorService SubjectAwareExecutorService
  * @since 1.0
  */
+@Group("Subject")
 public class SubjectCallable<V> implements Callable<V> {
 
     protected final ThreadState threadState;

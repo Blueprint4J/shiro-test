@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.event.EventBus;
 import org.apache.shiro.event.EventBusAware;
@@ -42,6 +43,7 @@ import java.util.Date;
  *
  * @since 1.0
  */
+@Group("SessionManager")
 public abstract class AbstractNativeSessionManager extends AbstractSessionManager implements NativeSessionManager, EventBusAware {
 
     private static final Logger log = LoggerFactory.getLogger(AbstractSessionManager.class);

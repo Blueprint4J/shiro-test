@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.text;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.ShiroException;
 import org.apache.shiro.lang.io.ResourceUtils;
 import org.apache.shiro.lang.util.Destroyable;
@@ -81,6 +82,7 @@ import java.util.concurrent.TimeUnit;
  *
  * @since 0.2
  */
+@Group("Realm")
 public class PropertiesRealm extends TextConfigurationRealm implements Destroyable, Runnable {
 
     //TODO - complete JavaDoc

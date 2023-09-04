@@ -26,6 +26,7 @@ import javax.naming.InitialContext;
 import javax.naming.NameNotFoundException;
 import javax.naming.NamingException;
 
+import honours.research.annotations.Group;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -42,6 +43,7 @@ import org.slf4j.LoggerFactory;
  * @see JndiCallback
  * @see #execute
  */
+@Group("Realm")
 public class JndiTemplate {
 
     private static final Logger log = LoggerFactory.getLogger(JndiTemplate.class);

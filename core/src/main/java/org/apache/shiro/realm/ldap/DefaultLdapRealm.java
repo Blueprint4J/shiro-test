@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.ldap;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -81,6 +82,7 @@ import javax.naming.ldap.LdapContext;
  *
  * @since 1.3
  */
+@Group("Realm")
 public class DefaultLdapRealm extends AuthorizingRealm {
 
     private static final Logger log = LoggerFactory.getLogger(DefaultLdapRealm.class);

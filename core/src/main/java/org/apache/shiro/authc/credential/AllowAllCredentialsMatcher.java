@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 
@@ -28,6 +29,7 @@ import org.apache.shiro.authc.AuthenticationToken;
  *
  * @since 0.2
  */
+@Group("Authenticator")
 public class AllowAllCredentialsMatcher implements CredentialsMatcher {
 
     /**

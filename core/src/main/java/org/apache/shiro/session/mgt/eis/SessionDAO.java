@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.UnknownSessionException;
 
@@ -39,6 +40,7 @@ import java.util.Collection;
  *
  * @since 0.1
  */
+@Group("Session DAO")
 public interface SessionDAO {
 
     /**

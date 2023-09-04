@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm.ldap;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -50,6 +51,7 @@ import javax.naming.NamingException;
  * @see #queryForAuthorizationInfo(org.apache.shiro.subject.PrincipalCollection , LdapContextFactory)
  * @since 0.1
  */
+@Group("Realm")
 public abstract class AbstractLdapRealm extends AuthorizingRealm {
 
     //TODO - complete JavaDoc

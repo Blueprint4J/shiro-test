@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.session.mgt.eis;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +32,7 @@ import java.util.Random;
  *
  * @since 1.0
  */
+@Group("Session DAO")
 public class RandomSessionIdGenerator implements SessionIdGenerator {
 
     private static final Logger log = LoggerFactory.getLogger(RandomSessionIdGenerator.class);

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.ByteSource;
 
 /**
@@ -69,6 +70,7 @@ import org.apache.shiro.lang.util.ByteSource;
  * @see PasswordMatcher
  * @since 1.2
  */
+@Group("Authenticator")
 public interface PasswordService {
 
     /**

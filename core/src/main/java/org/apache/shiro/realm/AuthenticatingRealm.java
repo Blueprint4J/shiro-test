@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.realm;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -110,6 +111,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * @since 0.2
  */
+@Group("Realm")
 public abstract class AuthenticatingRealm extends CachingRealm implements Initializable {
 
     //TODO - complete JavaDoc

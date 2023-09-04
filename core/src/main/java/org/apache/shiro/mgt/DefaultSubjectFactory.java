@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -31,6 +32,7 @@ import org.apache.shiro.subject.support.DelegatingSubject;
  *
  * @since 1.0
  */
+@Group("SecurityManager")
 public class DefaultSubjectFactory implements SubjectFactory {
 
     public DefaultSubjectFactory() {

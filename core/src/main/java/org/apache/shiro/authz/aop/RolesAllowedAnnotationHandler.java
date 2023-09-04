@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.aop;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.AuthorizationException;
 
 import javax.annotation.security.RolesAllowed;
@@ -29,6 +30,7 @@ import java.lang.annotation.Annotation;
  *
  * @since 2.0
  */
+@Group("Authorizer")
 public class RolesAllowedAnnotationHandler extends AuthorizingAnnotationHandler {
     /**
      * Default no-argument constructor that ensures this handler looks for

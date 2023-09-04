@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
@@ -29,6 +31,7 @@ import java.util.Set;
  * @see org.apache.shiro.realm.AuthorizingRealm
  * @since 0.9
  */
+@Group("Authorizer")
 public class SimpleAuthorizationInfo implements AuthorizationInfo {
 
     /**

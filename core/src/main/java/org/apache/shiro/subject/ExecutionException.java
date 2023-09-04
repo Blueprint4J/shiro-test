@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
+import honours.research.annotations.Ignore;
 import org.apache.shiro.lang.ShiroException;
 
 /**
@@ -29,6 +31,7 @@ import org.apache.shiro.lang.ShiroException;
  *
  * @since 1.0
  */
+@Ignore
 public class ExecutionException extends ShiroException {
 
     public ExecutionException(Throwable cause) {

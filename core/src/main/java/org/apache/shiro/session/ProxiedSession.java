@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.Date;
@@ -31,6 +33,7 @@ import java.util.Date;
  *
  * @since 0.9
  */
+@Group("SessionManager")
 public class ProxiedSession implements Session {
 
     /**

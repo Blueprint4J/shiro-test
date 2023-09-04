@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.subject;
 
+import honours.research.annotations.Group;
+
 import java.util.Collection;
 
 
@@ -26,6 +28,7 @@ import java.util.Collection;
  *
  * @since 0.9
  */
+@Group("Subject")
 public interface MutablePrincipalCollection extends PrincipalCollection {
 
     /**

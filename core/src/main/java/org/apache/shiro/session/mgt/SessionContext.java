@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session.mgt;
 
+import honours.research.annotations.Group;
+
 import java.io.Serializable;
 import java.util.Map;
 
@@ -39,6 +41,7 @@ import java.util.Map;
  * @see org.apache.shiro.session.mgt.SessionFactory SessionFactory
  * @since 1.0
  */
+@Group("SessionManager")
 public interface SessionContext extends Map<String, Object> {
 
     /**

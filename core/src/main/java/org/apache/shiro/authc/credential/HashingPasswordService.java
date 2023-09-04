@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.hash.Hash;
 import org.apache.shiro.lang.util.ByteSource;
 
@@ -27,6 +28,7 @@ import org.apache.shiro.lang.util.ByteSource;
  *
  * @since 1.2
  */
+@Group("Authenticator")
 public interface HashingPasswordService extends PasswordService {
 
     /**

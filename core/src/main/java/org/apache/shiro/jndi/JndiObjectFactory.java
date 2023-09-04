@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.jndi;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.lang.util.Factory;
 
 import javax.naming.NamingException;
@@ -27,6 +28,7 @@ import javax.naming.NamingException;
  * @param <T>
  * @since 1.2
  */
+@Group("Realm")
 public class JndiObjectFactory<T> extends JndiLocator implements Factory<T> {
 
     private String resourceName;

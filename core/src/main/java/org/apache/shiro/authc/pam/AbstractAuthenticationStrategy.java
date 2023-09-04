@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.pam;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.realm.Realm;
 
@@ -30,6 +31,7 @@ import java.util.Collection;
  *
  * @since 0.9
  */
+@Group("Authenticator")
 public abstract class AbstractAuthenticationStrategy implements AuthenticationStrategy {
 
     /**

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.session;
 
+import honours.research.annotations.Group;
+
 /**
  * Exception thrown when attempting to interact with the system under an established session
  * when that session is considered invalid.  The meaning of the term 'invalid' is based on
@@ -31,6 +33,7 @@ package org.apache.shiro.session;
  * @see UnknownSessionException
  * @since 0.1
  */
+@Group("SessionManager")
 public class InvalidSessionException extends SessionException {
 
     /**

@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * A special kind of <tt>DisabledAccountException</tt>, this exception is thrown when attempting
  * to authenticate and the corresponding account has been disabled explicitly due to being locked.
@@ -29,6 +31,7 @@ package org.apache.shiro.authc;
  *
  * @since 0.1
  */
+@Group("Authenticator")
 public class LockedAccountException extends DisabledAccountException {
 
     /**

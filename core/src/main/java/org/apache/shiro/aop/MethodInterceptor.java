@@ -18,6 +18,8 @@
  */
 package org.apache.shiro.aop;
 
+import honours.research.annotations.Ignore;
+
 /**
  * A <tt>MethodInterceptor</tt> intercepts a <tt>MethodInvocation</tt> to perform before or after logic (aka 'advice').
  *
@@ -26,6 +28,7 @@ package org.apache.shiro.aop;
  *
  * @since 0.2
  */
+@Ignore
 public interface MethodInterceptor {
 
     /**

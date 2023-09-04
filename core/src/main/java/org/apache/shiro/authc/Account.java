@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.AuthorizationInfo;
 
 /**
@@ -37,6 +38,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
  * @see SimpleAccount
  * @since 0.9
  */
+@Group("Authenticator")
 public interface Account extends AuthenticationInfo, AuthorizationInfo {
 
 }

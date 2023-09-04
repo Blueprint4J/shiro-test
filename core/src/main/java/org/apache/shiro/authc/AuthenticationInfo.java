@@ -19,6 +19,7 @@
 
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.PrincipalCollection;
 
 import java.io.Serializable;
@@ -55,6 +56,7 @@ import java.io.Serializable;
  * @see Account
  * @since 0.9
  */
+@Group("Authenticator")
 public interface AuthenticationInfo extends Serializable {
 
     /**

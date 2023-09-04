@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.aop;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 
@@ -29,6 +30,7 @@ import org.apache.shiro.subject.Subject;
  *
  * @since 0.2
  */
+@Ignore
 public abstract class MethodInterceptorSupport implements MethodInterceptor {
 
     /**

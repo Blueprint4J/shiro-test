@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz.aop;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.AuthorizationException;
 import org.apache.shiro.authz.annotation.Logical;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
@@ -33,6 +34,7 @@ import java.lang.annotation.Annotation;
  *
  * @since 0.9.0
  */
+@Group("Authorizer")
 public class PermissionAnnotationHandler extends AuthorizingAnnotationHandler {
 
     /**

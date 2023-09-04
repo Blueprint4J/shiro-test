@@ -19,6 +19,8 @@
 package org.apache.shiro.env;
 
 import java.util.function.Function;
+
+import honours.research.annotations.Ignore;
 import org.apache.shiro.config.Ini;
 import org.apache.shiro.ini.IniSecurityManagerFactory;
 
@@ -31,6 +33,7 @@ import org.apache.shiro.ini.IniSecurityManagerFactory;
  *
  * @since 1.5
  */
+@Ignore
 public class BasicIniEnvironment extends DefaultEnvironment {
     public BasicIniEnvironment(Ini ini) {
         this(ini, (name) -> null);

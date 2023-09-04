@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.util;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.subject.PrincipalCollection;
 
 import java.util.Arrays;
@@ -33,6 +34,7 @@ import java.util.Set;
  *
  * @since 0.9
  */
+@Group("Util")
 public class CollectionUtils {
 
     //TODO - complete JavaDoc

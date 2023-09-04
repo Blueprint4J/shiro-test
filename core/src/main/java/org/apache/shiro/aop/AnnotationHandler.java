@@ -20,6 +20,7 @@ package org.apache.shiro.aop;
 
 import java.lang.annotation.Annotation;
 
+import honours.research.annotations.Ignore;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 
@@ -29,6 +30,7 @@ import org.apache.shiro.subject.Subject;
  *
  * @since 0.9.0
  */
+@Ignore
 public abstract class AnnotationHandler {
 
     /**

@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.mgt;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.authc.Authenticator;
@@ -54,6 +55,7 @@ import org.apache.shiro.subject.SubjectContext;
  * @see org.apache.shiro.mgt.DefaultSecurityManager
  * @since 0.2
  */
+@Group("SecurityManager")
 public interface SecurityManager extends Authenticator, Authorizer, SessionManager {
 
     /**

@@ -19,6 +19,8 @@
 package org.apache.shiro.authc;
 
 
+import honours.research.annotations.Group;
+
 /**
  * A {@link AuthenticationToken} that contains an a Bearer token or API key, typically received via an HTTP {@code Authorization} header. This
  * class also implements the {@link org.apache.shiro.authc.HostAuthenticationToken HostAuthenticationToken} interface to retain the host name
@@ -29,6 +31,7 @@ package org.apache.shiro.authc;
  *
  * @since 1.5
  */
+@Group("Authenticator")
 public class BearerToken implements HostAuthenticationToken {
 
     private final String token;

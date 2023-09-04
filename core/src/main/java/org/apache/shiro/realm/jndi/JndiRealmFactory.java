@@ -23,6 +23,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.jndi.JndiLocator;
 import org.apache.shiro.realm.Realm;
 import org.apache.shiro.realm.RealmFactory;
@@ -38,6 +39,7 @@ import org.apache.shiro.lang.util.StringUtils;
  *
  * @since 0.9
  */
+@Group("Realm")
 public class JndiRealmFactory extends JndiLocator implements RealmFactory {
 
     Collection<String> jndiNames = null;

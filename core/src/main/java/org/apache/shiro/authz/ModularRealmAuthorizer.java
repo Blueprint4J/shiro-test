@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authz;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authz.permission.PermissionResolver;
 import org.apache.shiro.authz.permission.PermissionResolverAware;
 import org.apache.shiro.authz.permission.RolePermissionResolver;
@@ -35,6 +36,7 @@ import java.util.List;
  *
  * @since 0.2
  */
+@Group("Authorizer")
 public class ModularRealmAuthorizer implements Authorizer, PermissionResolverAware, RolePermissionResolverAware {
 
     /**

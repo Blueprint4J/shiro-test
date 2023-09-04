@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.apache.shiro.lang.codec.CodecSupport;
@@ -39,6 +40,7 @@ import java.util.Arrays;
  * @see org.apache.shiro.authc.credential.HashedCredentialsMatcher
  * @since 0.9
  */
+@Group("Authenticator")
 public class SimpleCredentialsMatcher extends CodecSupport implements CredentialsMatcher {
 
     private static final Logger log = LoggerFactory.getLogger(SimpleCredentialsMatcher.class);

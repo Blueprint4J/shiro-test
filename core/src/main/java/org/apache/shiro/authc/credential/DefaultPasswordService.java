@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.crypto.hash.DefaultHashService;
 import org.apache.shiro.crypto.hash.Hash;
 import org.apache.shiro.crypto.hash.HashRequest;
@@ -45,6 +46,7 @@ import static java.util.Objects.requireNonNull;
  *
  * @since 1.2
  */
+@Group("Authenticator")
 public class DefaultPasswordService implements HashingPasswordService {
 
     public static final String DEFAULT_HASH_ALGORITHM = "argon2id";

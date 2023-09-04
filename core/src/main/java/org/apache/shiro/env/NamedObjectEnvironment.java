@@ -18,11 +18,14 @@
  */
 package org.apache.shiro.env;
 
+import honours.research.annotations.Ignore;
+
 /**
  * An environment that supports object lookup by name.
  *
  * @since 1.2
  */
+@Ignore
 public interface NamedObjectEnvironment extends Environment {
 
     /**

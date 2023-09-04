@@ -18,12 +18,15 @@
  */
 package org.apache.shiro.authc;
 
+import honours.research.annotations.Group;
+
 /**
  * A {@code HostAuthenticationToken} retains the host information from where
  * an authentication attempt originates.
  *
  * @since 1.0
  */
+@Group("Authenticator")
 public interface HostAuthenticationToken extends AuthenticationToken {
 
     /**

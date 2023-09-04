@@ -18,6 +18,7 @@
  */
 package org.apache.shiro.authc.credential;
 
+import honours.research.annotations.Group;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
 
@@ -38,6 +39,7 @@ import org.apache.shiro.authc.AuthenticationToken;
  * @see Sha1CredentialsMatcher
  * @since 0.1
  */
+@Group("Authenticator")
 public interface CredentialsMatcher {
 
     /**
